@@ -92,6 +92,11 @@ function App() {
 								classes={{
 									root: classes.colorWhite
 								}}
+								onClick={() =>
+									window.open(
+										"https://github.com/zzg19931223/document-editor---document-viewer"
+									)
+								}
 							>
 								<GitHub></GitHub>
 							</IconButton>
